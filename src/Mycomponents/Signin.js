@@ -1,10 +1,9 @@
 import React from 'react'
 
 export default function Signin(props) {
-    var name="";
+   
     var updatename = (e) => {
-        name=e.target.value;
-        // props.takenname(e.target.value);
+         props.takenname(e.target.value);
         // props.takenname("ho");
 
     }
@@ -41,7 +40,6 @@ export default function Signin(props) {
                     </form>
                 </div>
             </div>
-            <p>{name}</p>
 
         </div>
     )
